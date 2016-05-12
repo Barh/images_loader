@@ -1,0 +1,51 @@
+/* GRADIENT IE 6,7,8,9 */
+    /* SEPARATE-BG-1 */
+        .ie6 .separate-bg,
+        .ie7 .separate-bg,
+        .ie8 .separate-bg,
+        .ie9 .separate-bg,
+    /* SEPARATE-BG-2 */
+        .ie6 .separate-bg-2,
+        .ie7 .separate-bg-2,
+        .ie8 .separate-bg-2,
+        .ie9 .separate-bg-2,
+    /* SEPARATE-BG-3 */
+        .ie6 .separate-bg-3,
+        .ie7 .separate-bg-3,
+        .ie8 .separate-bg-3,
+        .ie9 .separate-bg-3
+            { behavior: url(/pie/PIE.php); }
+
+/* BORDER RADIUS 6,7,8 */
+    /* INPUT 1 */
+        .ie6 .input-1,
+        .ie7 .input-1,
+        .ie8 .input-1,
+    /* BUTTON-1 */
+        .ie6 .button-1,
+        .ie7 .button-1,
+        .ie8 .button-1,
+    /* search-parameters */
+        .ie6 .search-parameters-container,
+        .ie7 .search-parameters-container,
+        .ie8 .search-parameters-container,
+    /* error-upload */
+        .ie6 .error-upload > span,
+        .ie7 .error-upload > span,
+        .ie8 .error-upload > span
+            { behavior: url(/aside_engine/templates/common/mods/pie/PIE.php); }
+
+/* BOX SHADOW 6,7,8 */
+    /* BUTTON 1 - ACTIVE */
+        .ie6 .button-1:active,
+        .ie7 .button-1:active,
+        .ie8 .button-1:active
+            { behavior: url(/aside_engine/templates/common/mods/pie/PIE.php); }
+
+/* INLINE BLOCK 6,7 */
+    .ie6 .inline-block,
+    .ie7 .inline-block
+        {
+            display: inline;
+            zoom: 1; /* haslayout */
+        }
